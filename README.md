@@ -7,6 +7,7 @@ Uses mpl_finance library to produce 1 min increment candlestick charts
 
 
   Params:
+  
     df: pandas DataFrame, contains cols ["Date", "Open", "High", "Low", "Close"]
     
     
@@ -14,6 +15,7 @@ Uses mpl_finance library to produce 1 min increment candlestick charts
 
 
   Params:
+  
     date_start: str(datetime) format="%m-%d %H:%M"
     date_end: str(datetime) format="%m-%d %H:%M"
     df: pandas DataFrame, contains cols ["Date", "Open", "High", "Low", "Close"]
@@ -24,6 +26,7 @@ Uses mpl_finance library to produce 1 min increment candlestick charts
 
 
   Params:
+  
     date_end: str(datetime) format="%m-%d %H:%M"
     df: pandas DataFrame, contains cols ["Date", "Open", "High", "Low", "Close"]
     minutes: int
